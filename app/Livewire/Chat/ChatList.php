@@ -14,14 +14,16 @@ class ChatList extends Component
     public $selectedConversation;
     public $name;
 
-    protected $listeners = ['chatUserSelected'];
+    protected $listeners = ['chatUserSelected', 'refreshChatList' => '$refresh'];
 
-    public function chatUserSelected( $conversation, $receiverId = 2)
+    public function chatUserSelected(Conversation $conversation, $receiverId)
     {
-        dd($conversation, $receiverId);
         $this->selectedConversation = $conversation;
     
-        $receiverInstance = User::find($receiverId);
+        $this->receiverInstance = User::find($receiverId);
+        
+        $this->dispatch('loadConversation', $this->selectedConversation, $this->receiverInstance);
+        $this->dispatch('updateSendMessage', $this->selectedConversation, $this->receiverInstance);
     }
 
     public function getChatUserInstance(Conversation $conversation, $request)

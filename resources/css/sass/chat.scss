@@ -72,6 +72,7 @@ img {
     }
 
     .chatlist_header {
+        padding-right: 4px;
         border-bottom: 1px solid $border-color;
         height: 60px;
         display: flex;
@@ -115,7 +116,7 @@ img {
             cursor: pointer;
 
             &:hover {
-                background-color: rgb(238, 238, 238);
+                background-color: gray;
             }
             .chatlist_img_container {
                 margin: auto;
@@ -221,6 +222,10 @@ img {
             font-size: 21px;
             padding: 7px 11px;
             cursor: pointer;
+
+            @include media('>tablet') {
+                display: none;
+            }
         }
 
         .name {
@@ -303,6 +308,8 @@ img {
                 border: 0;
                 outline: 0;
                 box-shadow: 0;
+                color:black;
+                font-weight: 600;
                 background-color: rgb(233, 233, 233);
                 border-radius: 11px;
 
