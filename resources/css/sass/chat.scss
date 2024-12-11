@@ -3,8 +3,9 @@
 $header_height: 60px;
 $footer_height: 60px;
 $base_color: #0484F3;
-$dark-bg: rgb(33, 37, 41);
-$border-color: rgb(55, 65, 81);
+$dark-bg: rgb(55, 65, 81);
+$dark-gray-bg: rgb(43, 43, 43);
+$border-color: black;
 
 .msg_body_me {
     background-color: gray;
@@ -32,8 +33,8 @@ img {
 }
 
 .chat_container {
-    background-color: rgb(33,37,41) !important;
-    color: white;
+    background-color: rgb(55, 65, 81) !important;
+    color: rgb(229, 231, 235);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -110,7 +111,7 @@ img {
 
             margin: 9px 4px;
             border-radius: 14px;
-            background-color: rgb(231,231,231);
+            background-color: $dark-gray-bg;
             cursor: pointer;
 
             &:hover {
