@@ -29,6 +29,9 @@
         <div class="msg_body msg_body_receiver">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
             <div class="msg_body_footer">
                 <div class="date">
                     5 hours ago
@@ -42,6 +45,41 @@
         <div class="msg_body msg_body_me">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            <div class="msg_body_footer">
+                <div class="date">
+                    5 hours ago
+                </div>
+                <div class="read">
+
+                    <i class="bi bi-check"></i>
+                </div>
+            </div>
+        </div>
+        <div class="msg_body msg_body_me">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            <div class="msg_body_footer">
+                <div class="date">
+                    5 hours ago
+                </div>
+                <div class="read">
+
+                    <i class="bi bi-check"></i>
+                </div>
+            </div>
+        </div>
+        <div class="msg_body msg_body_me">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, saepe!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium non consequuntur ullam totam corrupti ipsam sapiente natus rem adipisci.
             <div class="msg_body_footer">
                 <div class="date">
                     5 hours ago
